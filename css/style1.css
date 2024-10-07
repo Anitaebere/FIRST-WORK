@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+ .topnav{
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+   align-items: baseline;
+   width: 100%;
+   top: 0;
+   position: fixed;
+}
+#pp button{
+    background-color: greenyellow;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.sidenav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 350px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: rgba(236, 233, 233, 0.1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+#talk{
+   background-color: greenyellow;
+   /* height: 15px; */
+   padding: 15px 20px;
+   font-weight: bold;
+   color: blue;
+   border-radius: 5px;
+}
+.navbar h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.fa-bars{
+    margin-top: 25px;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
+#bars2{
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    font-size: small;
+    border-radius: 5px;
+    padding: 10px;
+}
+.fa-times{
+    color: white;
+    cursor: pointer;
+}
+#icon{
+    height:20px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: -20px;
+}
+.matai{
+display: flex;
+align-items: baseline;
+margin-right: 3px;
+
+}
+.menu{
+    color: white;
+    padding-top: 70px;
+}
+.menu h3{
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+.menu h3:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.contacts{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+form input, textarea{
+    background-color: rgb(36, 35, 35);
+    border: 1px solid rgb(59, 59, 59);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+}
+::placeholder{
+    color: silver;
+    font-weight: bold;
+}
+form button{
+    background-color: transparent;
+    padding: 20px 45px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.details{
+    background-color:rgb(49, 49, 49) ;
+    border: 0;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: start;
+    padding: 15px;
+}
+.details h3{
+    margin: 0%;
+}
+.details:hover{
+    border: 2px solid greenyellow;
+    cursor: pointer;
+}
+.facebook{
+    gap: 30px;
+    /* margin-left: 460px; */
+    margin-left: 40%;
+}
+.facebook h3{
+    border: 1px solid silver;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+
+}
+.facebook :hover{
+    background-color: greenyellow;
+    color: black;
+    border: 0;
+}
+.fa-long-arrow-right{
+    text-align: end;
+    color: aqua;
+}
+.menu, .sidenav button{
+    cursor: pointer;
+}
+@media screen and (max-width: 800px){
+   .navbar{
+    align-items: baseline;
+   }
+   .contacts{
+    padding: 10px;
+   } 
+   .facebook{
+    margin-left: 15%;
+   }
+   .topnav img{
+    height: 30px;
+    width: 100px;
+    padding-top: 10px;
+  }
+}

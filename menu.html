@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../asset/css/style1.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="sidenav">
+            <button type="button" onclick="hidenav()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>     
+            <div class="design1">
+                 <img src="../asset/images/logo.png" alt="">
+            </div>
+            <div class="text" style="text-align: start;">
+                 Neque porro quosquam est,qui doiorem <br> ipsum quia dolor sit consectetur, aliquam <br>
+                 quaerats voluptatem.Ut enim ad minima <br> veniam exercitationem laboriosam, nisi ut <br>
+                 aliquid et ea autem velit esse quam nihi.
+            </div>
+            <div id="h3">
+                 <h3 style="color: rgba(73, 72, 72);">ADRESS:</h3>
+                 <H3>Agbani Road,Enugu Nigeria</H3>
+                 <h3 style="color: rgba(73, 72, 72);">EMAIL:</h3>
+                 <h3>Nwankwoebereanita53@gmail.com</h3>
+                 <h3 style="color: rgba(73, 72, 72);">CALL NOW:</h3>
+                 <h3 style="color: black;">+234 0806 5599 653</h3>
+            </div>
+ 
+            <div class="icons" style="color: black; margin-bottom: 40px;">
+                 <i class="fab fa-facebook"></i>
+                 <i class="fab fa-twitter"></i>
+                 <i class="fab fa-youtube"></i>
+                 <i class="fab fa-instagram"></i>
+            </div>
+            <div id="pp">
+                 <button> > Let's Talk</button>
+            </div>
+        </div>
+ 
+        <div class="topnav">
+            <img src="../asset/images/logo.png" alt="">
+            <p id="talk">Let's Talk <i class="fa fa-long-arrow-right"></i> </p>
+            <i onclick="times()" style="color: white; font-size: x-large; cursor: pointer;" class="fa fa-times" aria-hidden="true"></i>
+            <i onclick="shownav()" id="bars2" id="menu1" class="fa-solid fa-list"></i>
+        </div>
+    </div>
+    <div class="menu">
+        <h3 onclick="homepage()" id="home">HOME</h3>
+        <a href="/dashboard/matias.html#hello"><h3 id="about" >ABOUT</h3></a>
+        <a href="/dashboard/matias.html#project1"><h3 id="work" >WORK</h3></a>
+
+        <div class="servic">
+            <h3 onclick="service()" id="services">SERVICES </h3>
+            <a href="/dashboard/matias.html#special"><h3 id="br1" style="display: none; padding: 10px; border: 0;" >Services</h3> </a>
+            <a href="/dashboard/matias.html#special"><h3 id="br2" style="display: none; padding-left: 10px;" > Service Detials  </h3></a>
+        </div>
+
+        <div class="blogg">
+            <h3 onclick="blogg()" id="blog" >BLOG</h3>
+            <h3 id="blo1" style="display: none; padding: 10px; border: 0;">Blog</h3> 
+            <h3 id="blo2" style="display: none; padding-left: 10px;"> Blog Detials  </h3>
+        </div>
+        <h3 id="contact" onclick="showContact()">CONTACT</h3>
+    </div>
+
+    <div class="contacts" style="display: none;">
+        <h1>Let's Start Something </h1>
+        <P style="font-style: italic;">Home / <span style="color: greenyellow;">Let's Start Something</span></P>
+
+        <div class="coment" style="background-color: rgb(34, 34, 34); width: 350px; padding: 10px; margin: auto; border-radius: 10px;">
+            <h1>Leave A Reply</h1>
+            <p style="color: silver;">Your email address will not be <br>
+             published. Required Fields are <br> marked*
+            </p> 
+
+            <form action="">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="email" required>
+                <textarea rows="5" cols="21" placeholder="Write Comments" required></textarea><br>
+                <button>Submit Comment <i class="fa fa-long-arrow-right"></i> </button>
+            </form>
+
+        </div>
+
+        <div class="coment" style="background-color: rgb(34, 33, 33); width: 350px; padding: 10px; margin: auto; margin-top: 20px; border-radius: 10px;">
+            <h2 style="margin-top: 20px;">Feel Free To Contact Me Anytime</h2>
+            <div class="details">
+                <h3>Email</h3>
+                <h3>nwankwoebereanita53@.com</h3>
+            </div>
+
+            <div class="details">
+                <h3>phone</h3>
+                <h3>+234 080 6559 9653</h3>
+            </div>
+
+            <div class="details">
+                <h3>Address</h3>
+                <h3>Agbani Road,Enugu Nigeria</h3>
+            </div>
+           
+            
+
+        </div>
+    </div>
+
+    <div class="intouch" style="text-align: center; color: white; display: non;">
+        <h1 style="border: 2px solid rgb(53, 51, 51); border-radius: 5px; width: fit-content; padding: 10px 40px; margin: auto;" >GET IN TOUCH</h1>
+
+        <H3>Hello i'm David Matias, Website & User <br>Interface Designer based  in London. </H3>
+        <h3 style="text-decoration: underline;" >Daivdmatias333@.Com</h3>
+       
+        <div class="facebook">
+          <h3>Facebook    <i style="text-align: end;" class="fa fa-long-arrow-right"></i>  </h3>
+          <h3>Twitter    <i class="fa fa-long-arrow-right"></i>  </h3>
+          <h3>Linkdin    <i class="fa fa-long-arrow-right"></i>  </h3>
+         <h3>Webflow    <i class="fa fa-long-arrow-right"></i>  </h3>
+        </div>
+    </div>
+
+    <footer style="background-color: rgb(34, 33, 33); color: white; font-size: larger; text-align: center; padding: 20px;">
+        Cpoyright &copy; 2023 <span style="color: greenyellow;">Matias.</span> All rights reserved.<br> <br>
+
+        Trems & Condition   Ptivacy Policy <br><br>
+        <i style="color: black;
+        background-color: greenyellow; padding: 20px; border-radius: 5px;" class="fa fa-long-arrow-up"></i>  </h3>
+    </footer>
+
+
+   
+     <script src="../asset/js/icons.js"></script>
+     <script src="../asset/js/code.js"></script>
+</body>
+</html>
